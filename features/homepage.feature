@@ -1,6 +1,10 @@
 Feature: homepage
     I should have a homepage
 
-    Scenario: It worked
+    Scenario:
         When i visit the homepage
-        Then i should see "Welcome to Django" in the title
+        Then i should see "TaskBuster" in the title
+
+    Scenario:
+        When i visit the homepage
+        Then i should see a pink title
